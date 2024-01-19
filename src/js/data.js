@@ -33,9 +33,7 @@ var allCountries = [
   [
     "American Samoa",
     "as",
-    "1",
-    5,
-    ["684"]
+    "1684"
   ],
   [
     "Andorra",
@@ -50,16 +48,12 @@ var allCountries = [
   [
     "Anguilla",
     "ai",
-    "1",
-    6,
-    ["264"]
+    "1264",
   ],
   [
     "Antigua & Barbuda",
     "ag",
-    "1",
-    7,
-    ["268"]
+    "1268"
   ],
   [
     "Argentina",
@@ -100,9 +94,7 @@ var allCountries = [
   [
     "Bahamas",
     "bs",
-    "1",
-    8,
-    ["242"]
+    "1242"
   ],
   [
     "Bahrain",
@@ -117,9 +109,7 @@ var allCountries = [
   [
     "Barbados",
     "bb",
-    "1",
-    9,
-    ["246"]
+    "1246"
   ],
   [
     "Belarus",
@@ -144,9 +134,7 @@ var allCountries = [
   [
     "Bermuda",
     "bm",
-    "1",
-    10,
-    ["441"]
+    "1441"
   ],
   [
     "Bhutan",
@@ -181,9 +169,7 @@ var allCountries = [
   [
     "British Virgin Islands",
     "vg",
-    "1",
-    11,
-    ["284"]
+    "1284"
   ],
   [
     "Brunei",
@@ -237,9 +223,7 @@ var allCountries = [
   [
     "Cayman Islands",
     "ky",
-    "1",
-    12,
-    ["345"]
+    "1345"
   ],
   [
     "Central African Republic",
@@ -349,9 +333,7 @@ var allCountries = [
   [
     "Dominica",
     "dm",
-    "1",
-    13,
-    ["767"]
+    "1767"
   ],
   [
     "Dominican Republic",
@@ -479,9 +461,7 @@ var allCountries = [
   [
     "Grenada",
     "gd",
-    "1",
-    14,
-    ["473"]
+    "1473"
   ],
   [
     "Guadeloupe",
@@ -492,9 +472,7 @@ var allCountries = [
   [
     "Guam",
     "gu",
-    "1",
-    15,
-    ["671"]
+    "1671"
   ],
   [
     "Guatemala",
@@ -594,9 +572,7 @@ var allCountries = [
   [
     "Jamaica",
     "jm",
-    "1",
-    4,
-    ["876", "658"]
+    "1876"
   ],
   [
     "Japan",
@@ -787,9 +763,7 @@ var allCountries = [
   [
     "Montserrat",
     "ms",
-    "1",
-    16,
-    ["664"]
+    "1664"
   ],
   [
     "Morocco",
@@ -875,9 +849,7 @@ var allCountries = [
   [
     "Northern Mariana Islands",
     "mp",
-    "1",
-    17,
-    ["670"]
+    "1670"
   ],
   [
     "Norway",
@@ -1022,9 +994,7 @@ var allCountries = [
   [
     "Sint Maarten",
     "sx",
-    "1",
-    21,
-    ["721"]
+    "1721"
   ],
   [
     "Slovakia",
@@ -1085,16 +1055,12 @@ var allCountries = [
   [
     "St Kitts & Nevis",
     "kn",
-    "1",
-    18,
-    ["869"]
+    "1869"
   ],
   [
     "St Lucia",
     "lc",
-    "1",
-    19,
-    ["758"]
+    "1758"
   ],
   [
     "St Martin",
@@ -1110,9 +1076,7 @@ var allCountries = [
   [
     "St Vincent & Grenadines",
     "vc",
-    "1",
-    20,
-    ["784"]
+    "1784"
   ],
   [
     "Sudan",
@@ -1189,9 +1153,7 @@ var allCountries = [
   [
     "Trinidad & Tobago",
     "tt",
-    "1",
-    22,
-    ["868"]
+    "1868"
   ],
   [
     "Tunisia",
@@ -1211,9 +1173,7 @@ var allCountries = [
   [
     "Turks & Caicos Islands",
     "tc",
-    "1",
-    23,
-    ["649"]
+    "1649"
   ],
   [
     "Tuvalu",
@@ -1255,9 +1215,7 @@ var allCountries = [
   [
     "US Virgin Islands",
     "vi",
-    "1",
-    24,
-    ["340"]
+    "1340"
   ],
   [
     "Uzbekistan",
