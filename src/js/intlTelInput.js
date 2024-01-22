@@ -1326,9 +1326,7 @@ class Iti {
     const len = this.telInput.value.length;
     this.telInput.setSelectionRange(len, len);
 
-    if (flagChanged) {
-      this._triggerCountryChange();
-    }
+    this._triggerCountryChange();
   }
 
   // close the dropdown and unbind any listeners

@@ -1178,9 +1178,8 @@
                     // who try to put the cursor at the beginning the first time
                     var len = this.telInput.value.length;
                     this.telInput.setSelectionRange(len, len);
-                    if (flagChanged) {
-                        this._triggerCountryChange();
-                    }
+
+                    this._triggerCountryChange();
                 }
             }, {
                 key: "_closeDropdown",
