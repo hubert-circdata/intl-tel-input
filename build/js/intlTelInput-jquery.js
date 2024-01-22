@@ -1409,6 +1409,16 @@
                 wrapper.parentNode.removeChild(wrapper);
                 delete window.intlTelInputGlobals.instances[this.id];
             }
+        },{
+            key: "removeKeyListeners",
+            value: function removeKeyListeners() {
+                var form = this.telInput.form;
+
+                // unbind key events, and cut/paste events
+                this.telInput.removeEventListener("keyup", this._handleKeyupEvent);
+                this.telInput.removeEventListener("cut", this._handleClipboardEvent);
+                this.telInput.removeEventListener("paste", this._handleClipboardEvent);
+            }
         }, {
             key: "getExtension",
             value: function getExtension() {

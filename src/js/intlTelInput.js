@@ -1599,6 +1599,15 @@ class Iti {
     delete window.intlTelInputGlobals.instances[this.id];
   }
 
+  removeKeyListeners() {
+    const { form } = this.telInput;
+
+    // unbind key events, and cut/paste events
+    this.telInput.removeEventListener("keyup", this._handleKeyupEvent);
+    this.telInput.removeEventListener("cut", this._handleClipboardEvent);
+    this.telInput.removeEventListener("paste", this._handleClipboardEvent);
+  }
+
   // get the extension from the current number
   getExtension() {
     if (window.intlTelInputUtils) {
