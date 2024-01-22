@@ -1312,7 +1312,9 @@ class Iti {
   // called when the user selects a list item from the dropdown
   _selectListItem(listItem) {
     // update selected flag and active list item
-    const flagChanged = true;
+    const flagChanged = this._setFlag(
+      listItem.getAttribute("data-country-code")
+    );
     this._closeDropdown();
 
     this._updateDialCode(listItem.getAttribute("data-dial-code"));

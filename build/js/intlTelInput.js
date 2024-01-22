@@ -1169,7 +1169,7 @@
                 key: "_selectListItem",
                 value: function _selectListItem(listItem) {
                     // update selected flag and active list item
-                    var flagChanged = this.true;
+                    var flagChanged = this._setFlag(listItem.getAttribute("data-country-code"));
                     this._closeDropdown();
                     this._updateDialCode(listItem.getAttribute("data-dial-code"));
                     // focus the input
